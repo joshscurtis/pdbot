@@ -3,7 +3,7 @@
 ##1. Download this project
 
 ##2. Pager Duty Setup
-This setup assumes that you have an active PagerDuty account. If you're just testing this bot and PagerDuty, they provide a 14-day free trial.
+These setup instructions assume that you have an active PagerDuty account. If you're just testing this bot and PagerDuty, they provide a 14-day free trial. [https://www.pagerduty.com/]
 
 ####I. Create an API Token
 
@@ -46,7 +46,7 @@ This setup assumes that you have an active PagerDuty account. If you're just tes
 	* Upload the bot using deploy script
 		* The deploy.sh script will use lambda-uploader to upload the bot to your AWS account, provided that you have credentials configured in your environment, eg. https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 		* The user you use to upload must have full rights to the Lambda Service.
-		* The bot itself needs an AWS execution rolem which needs the AmazonAPIGatewayInvokeFullAccess Managed Policy attached to it.
+		* The bot itself needs an AWS execution role which needs the AmazonAPIGatewayInvokeFullAccess Managed Policy attached to it.
 		* Once you've created the role, put it's arn in pdbot/lambda.json
 		* Then simply call ./deploy.sh to push up to AWS.
 		

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-cd pagerduty_opsbot
+cd pdbot
 lambda-uploader -p

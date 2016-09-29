@@ -1,0 +1,9 @@
+{
+  "name": "pagerduty_opsbot",
+  "description": "Pagerduty Slack Bot",
+  "region": "us-east-1",
+  "handler": "pagerduty_opsbot.lambda_handler",
+  "role": "<lambda_execution_role_arn",
+  "timeout": 30,
+  "memory": 128
+}

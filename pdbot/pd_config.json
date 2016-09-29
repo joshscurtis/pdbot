@@ -1,0 +1,6 @@
+{
+  "api_token" : "<pagerduty_api_token>",
+  "pagerduty_url" : "https://<your_pagerduty_name>.pagerduty.com",
+  "event_service_key" : "<pagerduty_event_key>",
+  "on_call_level" : 1
+}

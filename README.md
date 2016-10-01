@@ -38,7 +38,8 @@ These setup instructions assume that you have an active PagerDuty account. If yo
 
 - Configure the bot
 	* Open the file pdbot/pd_config.json in your favorite editor.
-	*  Enter your api_token, event_service_key, and complete your PagerDuty url.
+	* Enter your api_token, event_service_key, and complete your PagerDuty url.
+	* If you have a complicated escalation policy, you can change the "on_call_level" config variable.
 	* Install dependencies in the bot directory, from the root of the project
 	
 			pip install httplib2 -t pdbot

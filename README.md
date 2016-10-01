@@ -1,6 +1,6 @@
 # pdbot - PagerDuty Slack Bot
 # What is it?
-**pdbot**  is a really simple Slack bot that integrates with PagerDuty's APIs to tell you who currently is on-call and to give you a way to send them a message as a PageryDuty event.
+**pdbot**  is a really simple Slack bot, written in Python, that integrates with PagerDuty's APIs to tell you who currently is on-call and to give you a way to send them a message as a PageryDuty event.
 
 The bot is written to run as an "outgoing webhook" style Slack bot in AWS, on the API-Gateway/Lambda Function platform. A simple lamba-uploader [https://github.com/rackerlabs/lambda-uploader] config is provided. 
 
